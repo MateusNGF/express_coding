@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "",
-  "scripts": {},
+  "scripts": {
+    "start:views": "node src/session_and_cookies/views.js",
+    "start:login": "node src/session_and_cookies/login/server.js",
+    "start:des": "node src/testers/app.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
